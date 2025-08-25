@@ -4,7 +4,7 @@
  */
 package javaapplication2;
 
-import java.util.Scanner;
+
 
 /**
  *
@@ -16,9 +16,11 @@ public class JavaApplication2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       String saludo = "Hola " + "Mundo";
-                System.out.println(saludo);
-        
+       String nombre="Galo";
+       int edad=20;
+       double altura=1.75;
+       boolean estudiante=true;
+         System.out.println("Hola me llamo " + nombre + ", tengo " + edad + " años y mido: " + altura + "m. Y si se preguntan si soy estudiante: " + estudiante);
     }
     
 }
